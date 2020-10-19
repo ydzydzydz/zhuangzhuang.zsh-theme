@@ -6,6 +6,6 @@ case $1 in
 	("BG")
 		spectrum_bls;;
 	(*)
-		echo $0 ' [TEST]'
+		echo $0 '[ FG|BG ]'
 		exit 1
 esac
